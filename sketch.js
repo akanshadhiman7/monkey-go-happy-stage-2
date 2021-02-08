@@ -91,6 +91,9 @@ function draw() {
   obstacle();
 
 drawSprites();
+  fill("white");
+  textSize(25);
+  text("press'space' for jump"+score,100,30);
   fill("red");
   textSize(25);
   text("score:"+score,360,30);
