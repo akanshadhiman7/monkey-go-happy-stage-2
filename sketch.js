@@ -31,7 +31,7 @@ monkey = createSprite(200,200,20,20);
   monkey.addAnimation("running",monkey_running);
   monkey.scale = 0.1;
   
-  iground = createSprite(450,378,1000,10);
+  iground = createSprite(490,378,1000,10);
   iground.visible = false;
   
   
